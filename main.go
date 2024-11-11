@@ -17,7 +17,6 @@ func main() {
 		fmt.Fprintf(w, "Hello, World!")
 	})
 
-	// Iniciar el servidor en el puerto especificado
 	fmt.Println("Server started on port:", port)
 	http.ListenAndServe(":"+port, nil)
 }
