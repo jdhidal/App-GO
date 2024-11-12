@@ -50,8 +50,12 @@ The image for this project is also available on Docker Hub, allowing you to run 
 
 ```bash
 docker pull jdhidalgo673/app-go:latest
+```
+
+```bash
 docker run -p 8080:8080 jdhidalgo673/app-go:latest
 ```
+This will make the application available at http://localhost:8080
 
 ## Deployment to Heroku
 
