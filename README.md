@@ -1,6 +1,6 @@
 # Project in Go 🌎
 
-This is a basic program in Go that displays a "Hello World" message on the web. The project uses Docker for containerization and has also been deployed on Heroku.
+This is a basic program in Go that displays a "Hello World" message on the web. The project uses Docker for containerization and has also been deployed on Heroku using the `test` branch.
 
 ## Prerequisites
 
@@ -31,19 +31,6 @@ go run main.go
 ```
 This will make the application available at http://localhost:8080
 
-## Build and Run with Docker
-
-1. Build the Docker image: Make sure you are in the project directory and then run:
-```bash
-docker build -t app-go .
-```
-
-2. Run the container: Once the image is built, you can run the container:
-```bash
-docker run -p 8080:8080 app-go
-```
-This will make the application available at http://localhost:8080
-
 ## Docker Hub
 
 The image for this project is also available on Docker Hub, allowing you to run it without needing to build it locally. You can get it by running:
@@ -62,7 +49,6 @@ This will make the application available at http://localhost:8080
 This project is deployed on Heroku, so you can access the application directly at the following link:
 
 [Visit the Heroku website](https://app-go-cad6f4cb6f2f.herokuapp.com/)
-
 
 
 Thank you for exploring this Hello World project in Go! 😊
