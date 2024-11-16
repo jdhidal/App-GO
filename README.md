@@ -1,6 +1,6 @@
 # Project in Go 🌎
 
-This is a basic program in Go that displays a "Hello World" message on the web. The project uses Docker for containerization and has also been deployed on Heroku.
+This is a basic program in Go that displays a "Hello World" message on the web. The project uses Docker for containerization and has also been deployed on Heroku using the `test` branch.
 
 ## Prerequisites
 
